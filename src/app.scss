@@ -1,0 +1,95 @@
+// @import url('//at.alicdn.com/t/font_1498034_w5aflacjq6j.css');
+body {
+  color: #303133;
+}
+.font16 {
+  font-size: 16px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font30 {
+  font-size: 30px;
+}
+.font50 {
+  font: 50px;
+}
+
+.lh1 {
+  line-height: 1;
+}
+
+// 边距
+@for $i from 0 through 10 {
+  // padding
+  .pd#{$i}0 {
+    padding: (10px * $i) !important;
+  }
+  .pt#{$i}0 {
+    padding-top: (10px * $i) !important;
+  }
+  .pb#{$i}0 {
+    padding-bottom: (10px * $i) !important;
+  }
+  .pl#{$i}0 {
+    padding-left: (10px * $i) !important;
+  }
+  .pr#{$i}0 {
+    padding-right: (10px * $i) !important;
+  }
+  // margin
+  .m#{$i}0 {
+    margin: (10px * $i) !important;
+  }
+  .mt#{$i}0 {
+    margin-top: (10px * $i) !important;
+  }
+  .mb#{$i}0 {
+    margin-bottom: (10px * $i) !important;
+  }
+  .ml#{$i}0 {
+    margin-left: (10px * $i) !important;
+  }
+  .mr#{$i}0 {
+    margin-right: (10px * $i) !important;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+
+  &.row {
+    flex-direction: row;
+  }
+
+  &.column {
+    flex-direction: column;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.middle {
+    align-items: center;
+  }
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.color999 {
+  color: #999;
+}
+.color666 {
+  color: #666;
+}
+.color333 {
+  color: #333;
+}
+
+.bgfff {
+  background: #fff;
+}

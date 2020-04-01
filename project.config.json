@@ -1,8 +1,8 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "H5-weapp",
-  "description": "测试项目",
-  "appid": "touristappid",
+  "projectname": "mall-max",
+  "description": "mall template",
+  "appid": "wx39c344eaf840da05",
   "setting": {
     "urlCheck": true,
     "es6": false,
